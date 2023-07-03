@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>
+	.Application</RootNamespace>
+    <AssemblyName>VentaEntrada.Application</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Adicionales\**" />
+    <Compile Remove="Common\Interfaces\Log\**" />
+    <Compile Remove="Factories\**" />
+    <Compile Remove="Orchestrations\**" />
+    <EmbeddedResource Remove="Adicionales\**" />
+    <EmbeddedResource Remove="Common\Interfaces\Log\**" />
+    <EmbeddedResource Remove="Factories\**" />
+    <EmbeddedResource Remove="Orchestrations\**" />
+    <None Remove="Adicionales\**" />
+    <None Remove="Common\Interfaces\Log\**" />
+    <None Remove="Factories\**" />
+    <None Remove="Orchestrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="10.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Common\Enums\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

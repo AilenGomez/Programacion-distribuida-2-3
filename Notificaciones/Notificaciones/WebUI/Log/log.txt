@@ -1,0 +1,162 @@
+2023-07-02 19:23:48.110 -03:00 [INF] User profile is available. Using 'C:\Users\Ailen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-02 19:23:48.572 -03:00 [INF] Now listening on: https://localhost:5006
+2023-07-02 19:23:48.572 -03:00 [INF] Now listening on: http://localhost:5007
+2023-07-02 19:23:49.477 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger - -
+2023-07-02 19:23:49.549 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:49.614 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:49.626 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger - - - 301 0 - 154.9980ms
+2023-07-02 19:23:49.628 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/index.html - -
+2023-07-02 19:23:49.668 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:49.903 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:49.904 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/swagger-ui.css - -
+2023-07-02 19:23:49.904 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/swagger-ui-bundle.js - -
+2023-07-02 19:23:49.904 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/swagger-ui-standalone-preset.js - -
+2023-07-02 19:23:49.904 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:23:49.905 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:49.905 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:49.905 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:49.908 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/index.html - - - 200 - text/html;charset=utf-8 280.0268ms
+2023-07-02 19:23:49.912 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.3152ms
+2023-07-02 19:23:49.927 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-02 19:23:49.927 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:49.944 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_vs/browserLink - -
+2023-07-02 19:23:49.946 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/swagger-ui.css - - - 200 143943 text/css 42.3683ms
+2023-07-02 19:23:49.948 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-02 19:23:49.948 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:49.949 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 44.5428ms
+2023-07-02 19:23:49.965 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-02 19:23:49.966 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:49.966 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 61.5524ms
+2023-07-02 19:23:49.984 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4065ms
+2023-07-02 19:23:50.681 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - -
+2023-07-02 19:23:50.681 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:50.754 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/favicon-32x32.png - -
+2023-07-02 19:23:50.754 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:50.755 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-02 19:23:50.755 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:50.755 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/favicon-32x32.png - - - 200 628 image/png 0.9069ms
+2023-07-02 19:23:50.844 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:50.844 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.9645ms
+2023-07-02 19:23:54.290 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/health - -
+2023-07-02 19:23:54.291 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:54.644 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:54.644 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/health - - - 500 - application/json 354.3619ms
+2023-07-02 19:23:54.762 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/favicon.ico - -
+2023-07-02 19:23:54.762 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:23:54.792 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\Notificaciones\Notificaciones\WebUI\wwwroot\favicon.ico'
+2023-07-02 19:23:54.792 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:23:54.792 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/favicon.ico - - - 200 32038 image/x-icon 30.5661ms
+2023-07-02 19:24:06.911 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5006/ping - -
+2023-07-02 19:24:06.911 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:24:06.937 -03:00 [INF] Executing endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:24:06.957 -03:00 [INF] Route matched with {action = "Ping", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Ping() on controller Notificaciones.WebUI.Controllers.PingController (Notificaciones.WebUI).
+2023-07-02 19:24:06.966 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-07-02 19:24:07.013 -03:00 [INF] Executed action Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI) in 47.2899ms
+2023-07-02 19:24:07.016 -03:00 [INF] Executed endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:24:07.016 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:24:07.016 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5006/ping - - - 200 87 application/json;+charset=utf-8 105.2565ms
+2023-07-02 19:26:30.961 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5006/ping - -
+2023-07-02 19:26:30.962 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:26:30.962 -03:00 [INF] Executing endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:26:30.962 -03:00 [INF] Route matched with {action = "Ping", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Ping() on controller Notificaciones.WebUI.Controllers.PingController (Notificaciones.WebUI).
+2023-07-02 19:26:30.962 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-07-02 19:26:30.963 -03:00 [INF] Executed action Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI) in 0.5358ms
+2023-07-02 19:26:30.963 -03:00 [INF] Executed endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:26:30.963 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:26:30.963 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5006/ping - - - 200 87 application/json;+charset=utf-8 1.7456ms
+2023-07-02 19:27:06.543 -03:00 [INF] User profile is available. Using 'C:\Users\Ailen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-02 19:27:06.994 -03:00 [INF] Now listening on: https://localhost:5006
+2023-07-02 19:27:06.994 -03:00 [INF] Now listening on: http://localhost:5007
+2023-07-02 19:27:07.619 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/index.html - -
+2023-07-02 19:27:07.692 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:08.073 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:08.077 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:27:08.087 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 8.4546ms
+2023-07-02 19:27:08.096 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/index.html - - - 200 - text/html;charset=utf-8 478.3020ms
+2023-07-02 19:27:08.136 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_vs/browserLink - -
+2023-07-02 19:27:08.217 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.6925ms
+2023-07-02 19:27:09.808 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - -
+2023-07-02 19:27:09.808 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:09.927 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:09.927 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.5285ms
+2023-07-02 19:27:59.122 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5006/ping - -
+2023-07-02 19:27:59.122 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:59.149 -03:00 [INF] Executing endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:27:59.172 -03:00 [INF] Route matched with {action = "Ping", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Ping() on controller Notificaciones.WebUI.Controllers.PingController (Notificaciones.WebUI).
+2023-07-02 19:27:59.183 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-07-02 19:27:59.360 -03:00 [INF] Executed action Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI) in 182.1809ms
+2023-07-02 19:27:59.363 -03:00 [INF] Executed endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:27:59.363 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:59.363 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5006/ping - - - 200 87 application/json;+charset=utf-8 241.4302ms
+2023-07-02 19:30:05.670 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/health - -
+2023-07-02 19:30:05.674 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:30:06.563 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: MigrationsAssembly=Notificaciones.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:30:21.785 -03:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 15508.1975ms with message 'null'
+2023-07-02 19:30:21.807 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:30:21.807 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/health - - - 503 - text/plain 16137.3326ms
+2023-07-02 19:33:08.748 -03:00 [INF] User profile is available. Using 'C:\Users\Ailen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-02 19:33:09.433 -03:00 [INF] Now listening on: https://localhost:5006
+2023-07-02 19:33:09.433 -03:00 [INF] Now listening on: http://localhost:5007
+2023-07-02 19:33:10.065 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/index.html - -
+2023-07-02 19:33:10.140 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:10.608 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:10.619 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/index.html - - - 200 - text/html;charset=utf-8 558.7321ms
+2023-07-02 19:33:10.640 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:33:10.677 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 37.1155ms
+2023-07-02 19:33:10.687 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_vs/browserLink - -
+2023-07-02 19:33:11.422 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 735.3524ms
+2023-07-02 19:33:13.634 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - -
+2023-07-02 19:33:13.634 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:13.806 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:13.806 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.9558ms
+2023-07-02 19:33:40.485 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5006/ping - -
+2023-07-02 19:33:40.486 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:40.508 -03:00 [INF] Executing endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:33:40.526 -03:00 [INF] Route matched with {action = "Ping", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Ping() on controller Notificaciones.WebUI.Controllers.PingController (Notificaciones.WebUI).
+2023-07-02 19:33:40.537 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-07-02 19:33:40.701 -03:00 [INF] Executed action Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI) in 171.3511ms
+2023-07-02 19:33:40.705 -03:00 [INF] Executed endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:33:40.705 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:40.705 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5006/ping - - - 200 86 application/json;+charset=utf-8 219.8048ms
+2023-07-02 19:33:52.585 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/health - -
+2023-07-02 19:33:52.590 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:52.590 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:33:53.054 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: MigrationsAssembly=Notificaciones.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:34:08.016 -03:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 15185.7608ms with message 'null'
+2023-07-02 19:34:08.165 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:34:08.165 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:34:08.165 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/health - - - 503 - application/json 15580.7074ms
+2023-07-02 19:39:49.056 -03:00 [INF] User profile is available. Using 'C:\Users\Ailen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-02 19:39:49.510 -03:00 [INF] Now listening on: https://localhost:5006
+2023-07-02 19:39:49.510 -03:00 [INF] Now listening on: http://localhost:5007
+2023-07-02 19:39:50.553 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/index.html - -
+2023-07-02 19:39:50.641 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:39:50.926 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:39:50.929 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:39:50.938 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.9610ms
+2023-07-02 19:39:50.939 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/index.html - - - 200 - text/html;charset=utf-8 395.2083ms
+2023-07-02 19:39:50.975 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/_vs/browserLink - -
+2023-07-02 19:39:51.002 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.4033ms
+2023-07-02 19:39:51.601 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - -
+2023-07-02 19:39:51.601 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:39:51.746 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:39:51.747 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.7483ms
+2023-07-02 19:39:54.506 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5006/health - -
+2023-07-02 19:39:54.507 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:39:54.540 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:39:54.582 -03:00 [INF] Start processing HTTP request GET "https://localhost:5006/ping"
+2023-07-02 19:39:54.587 -03:00 [INF] Sending HTTP request GET "https://localhost:5006/ping"
+2023-07-02 19:39:54.669 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5006/ping - -
+2023-07-02 19:39:54.669 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:39:54.671 -03:00 [INF] Executing endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:39:54.686 -03:00 [INF] Route matched with {action = "Ping", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Ping() on controller Notificaciones.WebUI.Controllers.PingController (Notificaciones.WebUI).
+2023-07-02 19:39:54.692 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-07-02 19:39:54.843 -03:00 [INF] Executed action Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI) in 152.3246ms
+2023-07-02 19:39:54.843 -03:00 [INF] Executed endpoint 'Notificaciones.WebUI.Controllers.PingController.Ping (Notificaciones.WebUI)'
+2023-07-02 19:39:54.843 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:39:54.844 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5006/ping - - - 200 87 application/json;+charset=utf-8 174.3213ms
+2023-07-02 19:39:54.847 -03:00 [INF] Received HTTP response headers after 257.5962ms - 200
+2023-07-02 19:39:54.848 -03:00 [INF] End processing HTTP request after 272.2948ms - 200
+2023-07-02 19:39:54.907 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:39:54.907 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:39:54.907 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5006/health - - - 200 - application/json 400.7201ms

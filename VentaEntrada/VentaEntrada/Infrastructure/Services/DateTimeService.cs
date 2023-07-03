@@ -1,0 +1,10 @@
+﻿using VentaEntrada.Application.Common.Interfaces;
+using System;
+
+namespace VentaEntrada.Infrastructure.Services
+{
+    public class DateTimeService : IDateTime
+    {
+        public DateTime Now => DateTime.UtcNow;
+    }
+}

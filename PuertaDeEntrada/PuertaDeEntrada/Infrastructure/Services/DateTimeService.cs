@@ -1,0 +1,10 @@
+﻿using PuertaDeEntrada.Application.Common.Interfaces;
+using System;
+
+namespace PuertaDeEntrada.Infrastructure.Services
+{
+    public class DateTimeService : IDateTime
+    {
+        public DateTime Now => DateTime.UtcNow;
+    }
+}

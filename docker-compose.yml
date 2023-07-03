@@ -1,0 +1,74 @@
+services:
+  PuertaDeEntrada:
+    container_name: PuertaDeEntrada
+    image: puertaentrada
+    environment:
+      - SERVER=mssql-server-linux
+      - PORT=1433
+      - DATABASE=DistribuidosApp2
+      - USERID=SA
+      - PASSWORDDB=Passw0rd
+      - DOTNET_ENVIRONMENT=Development
+      - VENTAENTRADAAPIURL=http://VentaEntrada
+      - P=5
+    ports:
+      - 8060:80
+    build:
+      context: PuertaDeEntrada
+      dockerfile: Dockerfile
+    volumes:
+      - .\PuertaDeEntrada\PuertaDeEntrada\WebUI\Log:/app/Log
+    networks:
+      red_interna:
+        ipv4_address: 192.168.20.10
+
+  Notificaciones:
+    container_name: Notificaciones
+    image: notificaciones
+    environment:
+      - NOTIFICACIONAPIURL=http://Notificaciones
+      - DOTNET_ENVIRONMENT=Development
+    build:
+      context: Notificaciones
+      dockerfile: Dockerfile
+    networks:
+      red_interna:
+        ipv4_address: 192.168.20.30
+
+  VentaEntrada:
+    container_name: VentaEntrada
+    image: ventaentrada
+    environment:
+      - SERVER=mssql-server-linux
+      - PORT=1433
+      - DATABASE=DistribuidosApp2
+      - USERID=SA
+      - PASSWORDDB=Passw0rd
+      - DOTNET_ENVIRONMENT=Development
+      - M=5
+      - N=10
+      - NOTIFICACIONAPIURL=http://Notificaciones
+    ports:
+      - 8070:80
+    build:
+      context: VentaEntrada
+      dockerfile: Dockerfile
+    volumes:
+      - .\VentaEntrada\VentaEntrada\WebUI\Log:/app/Log  
+    networks:
+      red_interna:
+        ipv4_address: 192.168.20.20
+        
+  mssql-server-linux:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Passw0rd
+    networks:
+      red_interna:
+
+networks:
+  red_interna:
+    ipam:
+      config:
+        - subnet: 192.168.20.0/24

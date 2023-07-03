@@ -1,0 +1,756 @@
+2023-07-02 17:01:26.351 -03:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-02 17:01:26.385 -03:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-02 17:01:27.104 -03:00 [INF] El usuario asdf se encuentra en la posicion 14
+2023-07-02 17:01:27.112 -03:00 [WRN] Long Running Request: PuertaEntradaCommand (723 milliseconds) {"email":"asdf","$type":"PuertaEntradaCommand"}
+2023-07-02 17:09:41.625 -03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 17:09:42.103 -03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 17:09:42.149 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 17:09:42.151 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 17:09:42.152 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 17:09:42.177 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 17:09:42.193 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 17:09:42.510 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 17:09:42.510 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 17:09:43.103 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 17:09:43.143 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:09:43.434 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:09:43.436 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 17:09:43.443 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 6.9442ms
+2023-07-02 17:09:43.444 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 347.4406ms
+2023-07-02 17:09:43.471 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 17:09:43.495 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.4569ms
+2023-07-02 17:09:44.105 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 17:09:44.105 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:09:44.234 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:09:44.234 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.8534ms
+2023-07-02 17:09:49.228 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 17:09:49.229 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:09:49.241 -03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 17:09:49.305 -03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 17:09:49.342 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:09:49.342 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - text/plain 114.9113ms
+2023-07-02 17:09:49.440 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-07-02 17:09:49.440 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:09:49.483 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\PuertaDeEntrada\PuertaDeEntrada\WebUI\wwwroot\favicon.ico'
+2023-07-02 17:09:49.483 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:09:49.483 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 32038 image/x-icon 43.4607ms
+2023-07-02 17:10:10.100 -03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 17:10:45.367 -03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 17:10:45.737 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 17:10:45.778 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 17:10:45.781 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 17:10:45.782 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 17:10:45.810 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 17:10:45.827 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 17:10:46.096 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 17:10:46.096 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 17:10:46.570 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 17:10:46.613 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:10:46.902 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 17:10:46.903 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:10:46.908 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 4.8952ms
+2023-07-02 17:10:46.909 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 347.4846ms
+2023-07-02 17:10:46.935 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 17:10:46.951 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.9620ms
+2023-07-02 17:10:47.531 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 17:10:47.531 -03:00 [INF] No cached response available for this request.
+2023-07-02 17:10:47.670 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 17:10:47.670 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.2313ms
+2023-07-02 18:19:01.841 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:19:02.424 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:19:02.471 -03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:19:02.474 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:19:02.474 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:19:02.508 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:19:02.526 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:19:02.894 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 18:19:02.894 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 18:19:03.536 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 18:19:03.595 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:19:03.911 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 18:19:03.913 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:19:03.920 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.0955ms
+2023-07-02 18:19:03.922 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 390.6995ms
+2023-07-02 18:19:03.950 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 18:19:03.977 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.7016ms
+2023-07-02 18:19:04.557 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 18:19:04.558 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:19:04.685 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:19:04.686 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.5385ms
+2023-07-02 18:19:13.520 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 18:19:13.522 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:19:13.608 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:19:13.608 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - text/plain 88.3711ms
+2023-07-02 18:25:16.784 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:25:17.571 -03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:25:17.618 -03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:25:17.621 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:25:17.622 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:25:17.650 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:25:17.666 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:25:44.431 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:25:44.922 -03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:25:44.965 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:25:44.967 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:25:44.968 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:25:45.001 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:25:45.019 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:25:45.304 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 18:25:45.304 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 18:25:45.898 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 18:25:45.941 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:25:46.199 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:25:46.201 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 18:25:46.207 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 5.2606ms
+2023-07-02 18:25:46.208 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 321.5564ms
+2023-07-02 18:25:46.232 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 18:25:46.290 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.2864ms
+2023-07-02 18:25:46.858 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 18:25:46.858 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:25:47.050 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:25:47.051 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.6113ms
+2023-07-02 18:25:57.442 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 18:25:57.444 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:25:57.480 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 18:25:57.523 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 18:25:57.721 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:25:57.721 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 500 - application/json 278.7866ms
+2023-07-02 18:27:12.582 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:27:13.039 -03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:27:13.087 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:27:13.091 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:27:13.091 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:27:13.120 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:27:13.138 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:27:13.408 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 18:27:13.408 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 18:27:13.884 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 18:27:13.924 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:27:14.193 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:27:14.194 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 18:27:14.200 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 4.9578ms
+2023-07-02 18:27:14.200 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 322.6983ms
+2023-07-02 18:27:14.227 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 18:27:14.257 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1948ms
+2023-07-02 18:27:14.842 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 18:27:14.842 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:27:14.970 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:27:14.970 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.2438ms
+2023-07-02 18:27:19.301 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 18:27:19.304 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:27:19.330 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 18:27:19.353 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 18:27:19.538 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:27:19.538 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 500 - application/json 236.6844ms
+2023-07-02 18:30:38.119 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:30:38.507 -03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:30:38.549 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:30:38.551 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:30:38.552 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:30:38.578 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:30:38.595 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:30:38.825 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 18:30:38.825 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 18:30:39.661 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 18:30:39.717 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:30:40.001 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:30:40.001 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 18:30:40.009 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 7.3258ms
+2023-07-02 18:30:40.010 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 355.1578ms
+2023-07-02 18:30:40.037 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 18:30:40.058 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.0736ms
+2023-07-02 18:30:40.862 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 18:30:40.863 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:30:40.999 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:30:40.999 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.3027ms
+2023-07-02 18:30:54.099 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 18:30:54.101 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:30:54.135 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 18:30:54.285 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 18:30:54.286 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:30:54.286 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 186.7823ms
+2023-07-02 18:51:52.694 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 18:51:53.262 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:51:53.303 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:51:53.306 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 18:51:53.307 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 18:51:53.336 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 18:51:53.354 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 18:51:53.651 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 18:51:53.651 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 18:51:54.309 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 18:51:54.354 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:51:54.613 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:51:54.613 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 18:51:54.618 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 4.9082ms
+2023-07-02 18:51:54.626 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 317.8371ms
+2023-07-02 18:51:54.646 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 18:51:54.669 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.4130ms
+2023-07-02 18:51:55.261 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 18:51:55.261 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:51:55.395 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:51:55.396 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.0256ms
+2023-07-02 18:51:57.362 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 18:51:57.364 -03:00 [INF] No cached response available for this request.
+2023-07-02 18:51:57.393 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 18:51:57.526 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 18:51:57.526 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 18:51:57.527 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 164.9532ms
+2023-07-02 19:08:34.913 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:08:35.501 -03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:08:35.555 -03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:08:35.557 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:08:35.557 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:08:35.597 -03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 19:08:35.613 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 19:08:35.876 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 19:08:35.876 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 19:08:36.465 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 19:08:36.543 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:08:36.944 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:08:36.970 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:08:36.976 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 517.0497ms
+2023-07-02 19:08:36.976 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 5.2937ms
+2023-07-02 19:08:36.990 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 19:08:37.024 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.9772ms
+2023-07-02 19:08:37.611 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 19:08:37.612 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:08:37.731 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:08:37.731 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.8661ms
+2023-07-02 19:08:40.207 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:08:40.210 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:08:40.237 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:08:40.304 -03:00 [ERR] Health check VentaEntradaHC threw an unhandled exception after 22.2247ms
+System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetAsync(String requestUri)
+   at PuertaDeEntrada.Infrastructure.HealthChecks.VentaEntradaHC.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\PuertaDeEntrada\PuertaDeEntrada\Infrastructure\HealthChecks\VentaEntradaHC.cs:line 30
+   at Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService.RunCheckAsync(HealthCheckRegistration registration, CancellationToken cancellationToken)
+2023-07-02 19:08:40.411 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:08:40.411 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:08:40.411 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 503 - application/json 203.8116ms
+2023-07-02 19:08:40.720 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:08:40.721 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:08:40.722 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:08:40.738 -03:00 [ERR] Health check VentaEntradaHC threw an unhandled exception after 14.705ms
+System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetAsync(String requestUri)
+   at PuertaDeEntrada.Infrastructure.HealthChecks.VentaEntradaHC.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\PuertaDeEntrada\PuertaDeEntrada\Infrastructure\HealthChecks\VentaEntradaHC.cs:line 30
+   at Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService.RunCheckAsync(HealthCheckRegistration registration, CancellationToken cancellationToken)
+2023-07-02 19:08:40.739 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:08:40.739 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:08:40.739 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 503 - application/json 18.4396ms
+2023-07-02 19:09:46.537 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:09:47.001 -03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:09:47.082 -03:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:09:47.089 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:09:47.089 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:09:47.124 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 19:09:47.146 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 19:09:47.466 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 19:09:47.466 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 19:09:48.479 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 19:09:48.518 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:09:48.784 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:09:48.785 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:09:48.792 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 6.5794ms
+2023-07-02 19:09:48.798 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 324.3024ms
+2023-07-02 19:09:48.817 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 19:09:48.839 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.0246ms
+2023-07-02 19:09:49.412 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 19:09:49.412 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:09:49.540 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:09:49.540 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.1740ms
+2023-07-02 19:09:57.002 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:09:57.005 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:09:57.038 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:09:57.095 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:09:57.099 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:09:57.318 -03:00 [INF] Received HTTP response headers after 214.797ms - 200
+2023-07-02 19:09:57.320 -03:00 [INF] End processing HTTP request after 235.2348ms - 200
+2023-07-02 19:09:57.375 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:09:57.375 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:09:57.375 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 372.6062ms
+2023-07-02 19:25:56.511 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:25:56.958 -03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:25:57.002 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:25:57.005 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:25:57.005 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:25:57.034 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 19:25:57.050 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 19:25:57.329 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 19:25:57.329 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 19:25:57.933 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 19:25:57.983 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:25:58.266 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:25:58.270 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:25:58.277 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 5.9919ms
+2023-07-02 19:25:58.278 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 350.2861ms
+2023-07-02 19:25:58.304 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 19:25:58.328 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.3554ms
+2023-07-02 19:25:58.918 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 19:25:58.919 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:25:59.050 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:25:59.050 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.4200ms
+2023-07-02 19:26:01.310 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:26:01.313 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:26:01.345 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:26:01.402 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:01.405 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:05.665 -03:00 [ERR] Health check VentaEntradaHC threw an unhandled exception after 4267.1283ms
+System.Net.Http.HttpRequestException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión. (localhost:5003)
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at PuertaDeEntrada.Infrastructure.HealthChecks.VentaEntradaHC.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\PuertaDeEntrada\PuertaDeEntrada\Infrastructure\HealthChecks\VentaEntradaHC.cs:line 25
+   at Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService.RunCheckAsync(HealthCheckRegistration registration, CancellationToken cancellationToken)
+2023-07-02 19:26:05.827 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:26:05.827 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:26:05.827 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 503 - application/json 4517.1835ms
+2023-07-02 19:26:05.838 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:26:05.839 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:26:05.840 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:26:05.841 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:05.841 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:09.982 -03:00 [ERR] Health check VentaEntradaHC threw an unhandled exception after 4142.4178ms
+System.Net.Http.HttpRequestException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión. (localhost:5003)
+ ---> System.Net.Sockets.SocketException (10061): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at PuertaDeEntrada.Infrastructure.HealthChecks.VentaEntradaHC.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in C:\Users\Ailen\Downloads\Programacion-distribuida-2--0.3\Programacion-distribuida-2--0.3\PuertaDeEntrada\PuertaDeEntrada\Infrastructure\HealthChecks\VentaEntradaHC.cs:line 25
+   at Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService.RunCheckAsync(HealthCheckRegistration registration, CancellationToken cancellationToken)
+2023-07-02 19:26:09.984 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:26:09.984 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:26:09.984 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 503 - application/json 4146.5141ms
+2023-07-02 19:26:25.545 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:26:25.546 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:26:25.547 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:26:25.547 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:25.547 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:26:25.656 -03:00 [INF] Received HTTP response headers after 104.5954ms - 200
+2023-07-02 19:26:25.656 -03:00 [INF] End processing HTTP request after 109.2136ms - 200
+2023-07-02 19:26:25.661 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:26:25.661 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:26:25.661 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 116.2084ms
+2023-07-02 19:27:45.550 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:27:46.073 -03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:27:46.117 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:27:46.119 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:27:46.120 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:27:46.146 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 19:27:46.163 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 19:27:46.439 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 19:27:46.439 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 19:27:47.116 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 19:27:47.158 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:47.471 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:27:47.472 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:47.479 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 6.7752ms
+2023-07-02 19:27:47.487 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 376.7223ms
+2023-07-02 19:27:47.506 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 19:27:47.534 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.2147ms
+2023-07-02 19:27:48.230 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 19:27:48.230 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:48.414 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:48.414 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.3866ms
+2023-07-02 19:27:52.081 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:27:52.084 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:27:52.118 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:27:52.170 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:27:52.174 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:27:52.281 -03:00 [INF] Received HTTP response headers after 100.4767ms - 200
+2023-07-02 19:27:52.284 -03:00 [INF] End processing HTTP request after 122.6295ms - 200
+2023-07-02 19:27:52.366 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:27:52.366 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:27:52.366 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 284.6586ms
+2023-07-02 19:33:14.647 -03:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-02 19:33:17.157 -03:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:33:17.233 -03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:33:17.237 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-02 19:33:17.239 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-02 19:33:17.294 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-02 19:33:17.322 -03:00 [INF] No migrations were applied. The database is already up to date.
+2023-07-02 19:33:17.788 -03:00 [INF] Now listening on: https://localhost:5001
+2023-07-02 19:33:17.789 -03:00 [INF] Now listening on: http://localhost:5000
+2023-07-02 19:33:18.729 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-02 19:33:18.801 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:19.157 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:19.158 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-02 19:33:19.168 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 8.8963ms
+2023-07-02 19:33:19.169 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 446.6944ms
+2023-07-02 19:33:19.198 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-02 19:33:19.265 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.2051ms
+2023-07-02 19:33:20.564 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-02 19:33:20.564 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:20.754 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:20.755 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.4083ms
+2023-07-02 19:33:46.325 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health - -
+2023-07-02 19:33:46.332 -03:00 [INF] No cached response available for this request.
+2023-07-02 19:33:46.360 -03:00 [INF] Executing endpoint 'Health checks'
+2023-07-02 19:33:46.396 -03:00 [INF] Start processing HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:33:46.400 -03:00 [INF] Sending HTTP request GET "https://localhost:5003/ping"
+2023-07-02 19:33:46.520 -03:00 [INF] Received HTTP response headers after 115.7644ms - 200
+2023-07-02 19:33:46.521 -03:00 [INF] End processing HTTP request after 132.6153ms - 200
+2023-07-02 19:33:46.571 -03:00 [INF] Executed endpoint 'Health checks'
+2023-07-02 19:33:46.571 -03:00 [INF] The response could not be cached for this request.
+2023-07-02 19:33:46.571 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/health - - - 200 - application/json 245.5836ms
+2023-07-03 15:07:52.665 +00:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-03 15:08:02.933 +00:00 [INF] Executed DbCommand (730ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [DistribuidosApp2];
+2023-07-03 15:08:03.349 +00:00 [INF] Executed DbCommand (412ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [DistribuidosApp2] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-07-03 15:08:03.370 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-03 15:08:03.478 +00:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-07-03 15:08:03.481 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-07-03 15:08:03.501 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-07-03 15:08:03.547 +00:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-07-03 15:08:03.563 +00:00 [INF] Applying migration '20230625174714_first'.
+2023-07-03 15:08:03.589 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Seats] (
+    [Id] int NOT NULL IDENTITY,
+    [Column] int NOT NULL,
+    [Row] int NOT NULL,
+    [isFree] bit NOT NULL,
+    CONSTRAINT [PK_Seats] PRIMARY KEY ([Id])
+);
+2023-07-03 15:08:03.593 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Transactions] (
+    [email] nvarchar(450) NOT NULL,
+    [idTransaction] nvarchar(max) NULL,
+    [timeSpan] float NOT NULL,
+    [posicion] int NULL,
+    CONSTRAINT [PK_Transactions] PRIMARY KEY ([email])
+);
+2023-07-03 15:08:03.596 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230625174714_first', N'6.0.7');
+2023-07-03 15:08:03.610 +00:00 [INF] Applying migration '20230625234805_acceptNull'.
+2023-07-03 15:08:03.842 +00:00 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Transactions]') AND [c].[name] = N'timeSpan');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [Transactions] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [Transactions] ALTER COLUMN [timeSpan] float NULL;
+2023-07-03 15:08:03.844 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230625234805_acceptNull', N'6.0.7');
+2023-07-03 15:08:03.944 +00:00 [INF] Now listening on: http://[::]:80
+2023-07-03 15:08:09.208 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8060/swagger/index.html - -
+2023-07-03 15:08:09.216 +00:00 [INF] No cached response available for this request.
+2023-07-03 15:08:09.328 +00:00 [INF] The response could not be cached for this request.
+2023-07-03 15:08:09.332 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8060/swagger/index.html - - - 200 - text/html;charset=utf-8 128.7656ms
+2023-07-03 15:08:10.066 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8060/swagger/v1/swagger.json - -
+2023-07-03 15:08:10.067 +00:00 [INF] No cached response available for this request.
+2023-07-03 15:08:10.151 +00:00 [INF] The response could not be cached for this request.
+2023-07-03 15:08:10.152 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8060/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.6485ms
+2023-07-03 15:08:31.119 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez%40gmail.com - 0
+2023-07-03 15:08:31.120 +00:00 [INF] CORS policy execution successful.
+2023-07-03 15:08:31.142 +00:00 [INF] Executing endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:31.168 +00:00 [INF] Route matched with {action = "User", controller = "PuertaEntrada"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] User(System.String) on controller PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController (PuertaDeEntrada.WebUI).
+2023-07-03 15:08:31.193 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:08:31.206 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:08:31.213 +00:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-03 15:08:31.357 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[email], [t].[idTransaction], [t].[posicion], [t].[timeSpan]
+FROM [Transactions] AS [t]
+2023-07-03 15:08:31.505 +00:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Transactions] ([email], [idTransaction], [posicion], [timeSpan])
+VALUES (@p0, @p1, @p2, @p3);
+2023-07-03 15:08:31.525 +00:00 [INF] El usuario ailenadrianagomez@gmail.com obtuvo el numero de transaccion f25f361b-9433-44ab-bd30-82e0cffc7fbf
+2023-07-03 15:08:31.535 +00:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TransactionResponse'.
+2023-07-03 15:08:31.550 +00:00 [INF] Executed action PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI) in 375.5346ms
+2023-07-03 15:08:31.554 +00:00 [INF] Executed endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:31.557 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez%40gmail.com - 0 - 200 - application/json;+charset=utf-8 438.2385ms
+2023-07-03 15:08:36.705 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez%40gmail.com - 0
+2023-07-03 15:08:36.706 +00:00 [INF] CORS policy execution successful.
+2023-07-03 15:08:36.706 +00:00 [INF] Executing endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:36.707 +00:00 [INF] Route matched with {action = "User", controller = "PuertaEntrada"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] User(System.String) on controller PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController (PuertaDeEntrada.WebUI).
+2023-07-03 15:08:36.708 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:08:36.709 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:08:36.742 +00:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-03 15:08:36.746 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[email], [t].[idTransaction], [t].[posicion], [t].[timeSpan]
+FROM [Transactions] AS [t]
+2023-07-03 15:08:36.757 +00:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Transactions] ([email], [idTransaction], [posicion], [timeSpan])
+VALUES (@p0, @p1, @p2, @p3);
+2023-07-03 15:08:36.775 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'PuertaDeEntrada.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.Transactions'. The duplicate key value is (ailenadrianagomez@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__203_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1c348c9a-7fe3-4d34-869d-ad09a90b2162
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.Transactions'. The duplicate key value is (ailenadrianagomez@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__203_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:1c348c9a-7fe3-4d34-869d-ad09a90b2162
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-03 15:08:36.780 +00:00 [ERR] Ese mail ya tiene una transaccion asignada
+2023-07-03 15:08:36.781 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-07-03 15:08:36.782 +00:00 [INF] Executed action PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI) in 74.6733ms
+2023-07-03 15:08:36.782 +00:00 [INF] Executed endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:36.783 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez%40gmail.com - 0 - 400 - text/plain;+charset=utf-8 77.5424ms
+2023-07-03 15:08:39.141 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez2%40gmail.com - 0
+2023-07-03 15:08:39.142 +00:00 [INF] CORS policy execution successful.
+2023-07-03 15:08:39.144 +00:00 [INF] Executing endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:39.144 +00:00 [INF] Route matched with {action = "User", controller = "PuertaEntrada"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] User(System.String) on controller PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController (PuertaDeEntrada.WebUI).
+2023-07-03 15:08:39.148 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:08:39.150 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:08:39.150 +00:00 [INF] Entity Framework Core 6.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: NoTracking MigrationsAssembly=PuertaDeEntrada.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2023-07-03 15:08:39.152 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[email], [t].[idTransaction], [t].[posicion], [t].[timeSpan]
+FROM [Transactions] AS [t]
+2023-07-03 15:08:39.154 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Transactions] ([email], [idTransaction], [posicion], [timeSpan])
+VALUES (@p0, @p1, @p2, @p3);
+2023-07-03 15:08:39.161 +00:00 [INF] El usuario ailenadrianagomez2@gmail.com obtuvo el numero de transaccion 827db379-dc9c-4d12-a57a-2a17bb6c4fe9
+2023-07-03 15:08:39.162 +00:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.TransactionResponse'.
+2023-07-03 15:08:39.163 +00:00 [INF] Executed action PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI) in 17.8492ms
+2023-07-03 15:08:39.163 +00:00 [INF] Executed endpoint 'PuertaDeEntrada.WebUI.Controllers.PuertaEntradaController.User (PuertaDeEntrada.WebUI)'
+2023-07-03 15:08:39.163 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8060/?email=ailenadrianagomez2%40gmail.com - 0 - 200 - application/json;+charset=utf-8 22.4016ms
+2023-07-03 15:13:09.199 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:13:09.226 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:13:09.543 +00:00 [INF] El usuario ailenadrianagomez@gmail.com obtuvo el numero de transaccion f12c2ec7-31a5-4793-8e3a-ff34a5b78290
+2023-07-03 15:13:14.344 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:13:14.346 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:13:14.400 +00:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Transactions] ([email], [idTransaction], [posicion], [timeSpan])
+VALUES (@p0, @p1, @p2, @p3);
+2023-07-03 15:13:14.427 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'PuertaDeEntrada.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.Transactions'. The duplicate key value is (ailenadrianagomez@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__203_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8571b287-e522-4903-8091-7c2b81da2546
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Transactions'. Cannot insert duplicate key in object 'dbo.Transactions'. The duplicate key value is (ailenadrianagomez@gmail.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__203_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8571b287-e522-4903-8091-7c2b81da2546
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-03 15:13:14.434 +00:00 [ERR] Ese mail ya tiene una transaccion asignada
+2023-07-03 15:13:17.969 +00:00 [INF] User 'S/D' requested 'PuertaEntradaCommand'
+2023-07-03 15:13:17.971 +00:00 [INF] Inicia pedido de numero de transaccion o numero de posicion en la fila en caso de estar ocupado el servicio
+2023-07-03 15:13:18.048 +00:00 [INF] El usuario ailenadrianagomez2@gmail.com obtuvo el numero de transaccion a96ed118-856a-4c00-998b-fd9bbdc751f7
